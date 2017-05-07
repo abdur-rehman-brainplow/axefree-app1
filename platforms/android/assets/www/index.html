@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html>
+    <head>
+        <!--
+        Customize this policy to fit your own app's needs. For more guidance, see:
+            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
+        Some notes:
+            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
+            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
+            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
+                * Enable inline JS: add 'unsafe-inline' to default-src
+        -->
+       <!--  <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        -->
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/calligraffitti-css.css" />
+        <link rel="stylesheet" href="css/font-awesome.min.css" />
+        <link rel="stylesheet" href="css/open-sans-css.css" />
+        <link rel="stylesheet" href="css/rambla-css.css" />
+        <link rel="stylesheet" href="css/slab-css.css" />
+        <link rel="shortcut icon" href="dist-website/assets/assets/img/icons/favicon.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="{% static 'dist-website/assets/assets/img/icons/114x114.png' %}">
+        <link rel="apple-touch-icon" sizes="72x72" href="{% static 'dist-website/assets/assets/img/icons/72x72.png' %}">
+        <link rel="apple-touch-icon" href="{% static 'dist-website/assets/assets/img/icons/default.png' %}">
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-3.2.1.js" ></script>
+       
+        <script type = "text/javascript" src = "js/bootstrap.min.js"></script>
+        <script type = "text/javascript" src = "js/jquery.min.js"></script>
+        <script type = "text/javascript" src = "js/retina.min.js"></script>
+        <script type = "text/javascript" src = "js/tether.min.js"></script>
+        <script src="dist-website/assets/js/script.min.js"></script>
+         <link href="dist-website/styles.d41d8cd98f00b204e980.bundle.css" rel="stylesheet"/>
+              <title>Hello World</title>
+              <base href="">
+    </head>
+    <body>
+
+        <app-root>Loading...</app-root>
+        <script type="text/javascript"  src="dist-website/inline.cdd0e6d61aa5e38b4f9d.bundle.js"></script>
+        <script type="text/javascript" src=" dist-website/polyfills.e68c68477a25e4a4ff24.bundle.js"></script>
+        <script type="text/javascript" src="dist-website/vendor.05d4faa6e616c92298d4.bundle.js"></script>
+        <script type="text/javascript" src="dist-website/main.c58a76aaff98ae4fd474.bundle.js"></script>
+        
+
+
+    </body>
+</html
+
